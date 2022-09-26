@@ -1,0 +1,16 @@
+id = d03a82d8-f8f3-4be9-a2de-9c050fb45ca0
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+files[] = {"id":"896503-228cde0b-0db8-42f2-b5c5-79bc94328361","path":"New Collection.json","metaData":{}}
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"zomato.yaml","metaData":{}}
+
+[relations.apiDefinition.metaData]
+type = openapi:3
