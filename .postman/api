@@ -15,3 +15,4 @@ files[] = {"path":"zomato.yaml","metaData":{}}
 
 [relations.apiDefinition.metaData]
 type = openapi:3
+rootFiles[] = zomato.yaml
