@@ -22,13 +22,29 @@
 					}
 				],
 				"url": {
-					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId",
+					"raw": "{{baseUrl}}/spacecrafts/:spacecraftId?foo=bar&some=ssls&k=sss",
 					"host": [
 						"{{baseUrl}}"
 					],
 					"path": [
 						"spacecrafts",
 						":spacecraftId"
+					],
+					"query": [
+						{
+							"key": "foo",
+							"value": "bar"
+						},
+						{
+							"key": "some",
+							"value": "ssls",
+							"type": "text"
+						},
+						{
+							"key": "k",
+							"value": "sss",
+							"type": "text"
+						}
 					],
 					"variable": [
 						{
@@ -72,7 +88,6 @@
 					"status": "OK",
 					"code": 200,
 					"_postman_previewlanguage": "json",
-					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -114,7 +129,6 @@
 					"status": "Not Found",
 					"code": 404,
 					"_postman_previewlanguage": "json",
-					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
@@ -156,7 +170,6 @@
 					"status": "Internal Server Error",
 					"code": 500,
 					"_postman_previewlanguage": "json",
-					"_postman_previewtype": "html",
 					"header": [
 						{
 							"key": "Content-Type",
